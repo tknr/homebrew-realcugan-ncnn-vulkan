@@ -11,7 +11,7 @@ class RealcuganNcnnVulkan < Formula
 
   # depends_on "cmake" => :build
   depends_on "vulkan-headers"
-  depends_on "vulkan-loader "
+  depends_on "vulkan-loader"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
