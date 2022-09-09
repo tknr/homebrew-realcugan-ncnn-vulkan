@@ -20,9 +20,9 @@ class RealcuganNcnnVulkan < Formula
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     system "git","submodule","update","--init","--recursive"
-    system "mkdir","-p","build"
-    system "cd","build"
-    system "cmake","../src"
+    system "mkdir","-p",buildpath/"build"
+    system "cd",buildpath/"build"
+    system "cmake",buildpath/"src"
     system "cmake","--build",".","-j","4"
     bin.install buildpath/"build/realcugan-ncnn-vulkan" 
   end
