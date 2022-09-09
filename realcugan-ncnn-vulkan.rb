@@ -4,9 +4,9 @@
 class RealcuganNcnnVulkan < Formula
   desc "real-cugan converter ncnn version, runs fast on intel / amd / nvidia / apple-silicon GPU with vulkan"
   homepage "https://github.com/nihui/realcugan-ncnn-vulkan"
-  url "https://github.com/nihui/realcugan-ncnn-vulkan/archive/refs/heads/master.zip"
+  url "https://github.com/nihui/realcugan-ncnn-vulkan.git"
   version "20220728"
-  sha256 "c6c500fbd4b48fd0adebe74147f77e5de5c31ec60f22b16899edae83100a28cc"
+  sha256 ""
   license "MIT license"
 
   # depends_on "cmake" => :build
